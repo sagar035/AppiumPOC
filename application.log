@@ -1,0 +1,21 @@
+2020-06-30 13:31:52,794  INFO [main] ContactsHomePageTest:42 - Launching app
+2020-06-30 13:31:58,057  INFO [main] ContactsHomePageTest:56 - starting--------------------->>>>>>> verifyContactHeaderTest
+2020-06-30 13:31:58,251  INFO [main] ContactsHomePageTest:58 - ending--------------------->>>>>>> verifyContactHeaderTest
+2020-06-30 13:32:14,954  INFO [main] ContactsHomePageTest:42 - Launching app
+2020-06-30 13:32:19,962  INFO [main] ContactsHomePageTest:65 - starting--------------------->>>>>>> verifySetPasswordTest
+2020-06-30 13:32:56,264  INFO [main] ContactsHomePageTest:42 - Launching app
+2020-06-30 13:33:01,273  INFO [main] ContactsHomePageTest:74 - starting--------------------->>>>>>> goToBackUpRestoreTest
+2020-06-30 13:33:01,465  INFO [main] ContactsHomePageTest:76 - ending--------------------->>>>>>> goToBackUpRestoreTest
+2020-06-30 13:33:21,627  INFO [main] BackupRestoreTest:43 - Launching app
+2020-06-30 13:33:26,805  INFO [main] BackupRestoreTest:58 - starting--------------------->>>>>>> verifyRestoreContactsTextTest
+2020-06-30 13:33:27,193  INFO [main] BackupRestoreTest:61 - Restore contacts text is : Restore Contacts
+2020-06-30 13:33:27,193  INFO [main] BackupRestoreTest:63 - ending--------------------->>>>>>> verifyRestoreContactsTextTest
+2020-06-30 13:33:45,008  INFO [main] BackupRestoreTest:43 - Launching app
+2020-06-30 13:33:50,576  INFO [main] BackupRestoreTest:70 - starting--------------------->>>>>>> verifyContactClickTest
+2020-06-30 13:33:51,032  INFO [main] BackupRestoreTest:72 - ending--------------------->>>>>>> verifyContactClickTest
+2020-06-30 13:34:11,390  INFO [main] ContactusTest:47 - Launching app
+2020-06-30 13:34:16,615  INFO [main] ContactusTest:62 - starting--------------------->>>>>>> verifyContactUsHeaderTest
+2020-06-30 13:34:16,772  INFO [main] ContactusTest:64 - ending--------------------->>>>>>> verifyContactUsHeaderTest
+2020-06-30 13:34:37,253  INFO [main] ContactusTest:47 - Launching app
+2020-06-30 13:34:43,468  INFO [main] ContactusTest:77 - starting--------------------->>>>>>> newContactUsRequestTest
+2020-06-30 13:34:47,350  INFO [main] ContactusTest:79 - ending--------------------->>>>>>> newContactUsRequestTest

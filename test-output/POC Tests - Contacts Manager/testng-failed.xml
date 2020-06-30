@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [POC Tests - Contacts Manager]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.contacts.listeners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="5" name="Contacts HomePage(failed)">
+    <classes>
+      <class name="com.qa.contacts.tests.ContactsHomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifySetPasswordTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.contacts.tests.ContactsHomePageTest -->
+    </classes>
+  </test> <!-- Contacts HomePage(failed) -->
+</suite> <!-- Failed suite [POC Tests - Contacts Manager] -->
