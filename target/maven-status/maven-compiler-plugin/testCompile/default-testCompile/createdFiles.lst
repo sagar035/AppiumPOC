@@ -1,0 +1,4 @@
+com\qa\contacts\tests\BackupRestoreTest.class
+com\qa\contacts\tests\ContactusTest.class
+com\qa\contacts\tests\ContactsHomePageTest.class
+com\qa\contacts\tests\BaseTest.class

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="POC Tests - Contacts Manager">
 
@@ -8,23 +8,23 @@
 			class-name="com.qa.contacts.listeners.TestAllureListener" />
 	</listeners>
 
-	<test name="Contacts HomePage" allow-return-values="true">
+	<test name="Contacts HomePage Test">
 		<classes>
 			<class name="com.qa.contacts.tests.ContactsHomePageTest" />
 		</classes>
 	</test>
 
-	<test name="BackupRestore Test" allow-return-values="true">
+	<test name="BackupRestore Test">
 		<classes>
 			<class name="com.qa.contacts.tests.BackupRestoreTest" />
 		</classes>
 	</test>
 
 
-	<test name="New Contact Us Request Test"
-		allow-return-values="true">
+	<test name="New Contact Us Request Test">
 		<classes>
 			<class name="com.qa.contacts.tests.ContactusTest" />
 		</classes>
 	</test>
+
 </suite> 

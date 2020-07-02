@@ -1,0 +1,10 @@
+com\qa\contacts\page\BackupRestorePage.class
+com\qa\contacts\page\ContactsHomePage.class
+com\qa\contacts\listeners\ScreenshotListener.class
+com\qa\contacts\listeners\TestAllureListener.class
+com\qa\contacts\base\BasePage.class
+com\qa\contacts\page\ContactusPage.class
+com\qa\contacts\util\AppConstants.class
+com\qa\contacts\util\ExcelUtil.class
+com\qa\contacts\util\JavaScriptUtil.class
+com\qa\contacts\util\ElementUtil.class

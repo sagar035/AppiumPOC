@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -24,11 +23,11 @@ import io.appium.java_client.ios.IOSDriver;
 
 public class BasePage {
 
-	public AppiumDriver<MobileElement> driver;
+	public static AppiumDriver<MobileElement> driver;
 	public Properties prop;
 	public static boolean highlighElement;
 	public String platformName;
-
+	
 	public AppiumDriver<MobileElement> launchApp() throws InterruptedException{
 		//File app = new File(AppConstants.APK_PATH);
 		DesiredCapabilities caps = new DesiredCapabilities();
@@ -62,6 +61,10 @@ public class BasePage {
 		//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Thread.sleep(5000);
 
+		return driver;
+	}
+	
+	public static AppiumDriver<MobileElement> getDriver() {
 		return driver;
 	}
 

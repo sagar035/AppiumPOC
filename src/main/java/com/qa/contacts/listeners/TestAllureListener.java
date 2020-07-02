@@ -1,12 +1,10 @@
 package com.qa.contacts.listeners;
 
-
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -14,6 +12,7 @@ import org.testng.ITestResult;
 import com.qa.contacts.base.BasePage;
 
 public class TestAllureListener extends BasePage implements ITestListener {
+	public BasePage basePage;
 
 	private static String getTestMethodName(ITestResult iTestResult) {
 		return iTestResult.getMethod().getConstructorOrMethod().getName();
@@ -40,7 +39,7 @@ public class TestAllureListener extends BasePage implements ITestListener {
 	@Override
 	public void onStart(ITestContext iTestContext) {
 		System.out.println("I am in onStart method " + iTestContext.getName());
-		//iTestContext.setAttribute("WebDriver", BasePage.getDriver());
+		iTestContext.setAttribute("AppiumDriver", BasePage.getDriver());
 	}
 
 	@Override
@@ -62,9 +61,9 @@ public class TestAllureListener extends BasePage implements ITestListener {
 	public void onTestFailure(ITestResult iTestResult) {
 		System.out.println("I am in onTestFailure method " + getTestMethodName(iTestResult) + " failed");
 		Object testClass = iTestResult.getInstance();
-		//WebDriver driver = BasePage.getDriver();
+		AppiumDriver<MobileElement> driver = BasePage.getDriver();
 		// Allure ScreenShotRobot and SaveTestLog
-		if (driver instanceof AppiumDriver) {
+		if(driver instanceof AppiumDriver) {
 			System.out.println("Screenshot captured for test case:" + getTestMethodName(iTestResult));
 			saveScreenshotPNG(driver);
 		}

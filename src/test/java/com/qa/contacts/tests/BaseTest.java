@@ -4,40 +4,40 @@ import java.util.Properties;
 
 import org.apache.log4j.Logger;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 
 import com.qa.contacts.base.BasePage;
-import com.qa.contacts.page.ContactsPage;
+import com.qa.contacts.page.BackupRestorePage;
+import com.qa.contacts.page.ContactsHomePage;
+import com.qa.contacts.page.ContactusPage;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 
 public class BaseTest {
-	
-	AppiumDriver<MobileElement> driver;
-	BasePage basePage;
-	Properties prop;
-	ContactsPage contactsPage;
-	//Credentials userCred;
+
+	public AppiumDriver<MobileElement> driver;
+	public Properties prop;
+	public BasePage basePage;
+	public ContactsHomePage contactsPage;
+	public BackupRestorePage backupRestorePage;
+	public ContactusPage contactusPage;
 
 	Logger log = Logger.getLogger(BaseTest.class);
-
+	
 	@BeforeMethod
-	//@Parameters(value={"browser"})
 	public void setUp() throws InterruptedException {
 		basePage = new BasePage();
 		prop = basePage.init_properties();
 		driver = basePage.launchApp();
 		log.info("Launching app");
-		contactsPage = new ContactsPage(driver);
+		contactsPage = new ContactsHomePage(driver);
 		Thread.sleep(5000);
 	}
 
 	@AfterMethod
 	public void tearDown() {
-		driver.quit();
+		if(driver!=null)
+			driver.quit();
 	}
-
 }

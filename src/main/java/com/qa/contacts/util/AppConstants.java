@@ -24,6 +24,6 @@ public class AppConstants {
 
 
 	//*****************Page Constants ********************
-	public final static String RESTORE_CONTACT_TEXT = "Restore Contacts";
+	public final static String RESTORE_CONTACT_TEXT = "Restore Contats";
 	
 }

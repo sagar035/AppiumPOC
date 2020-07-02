@@ -10,7 +10,7 @@ import io.appium.java_client.MobileElement;
 
 public class BackupRestorePage {
 
-	AppiumDriver<MobileElement> driver;
+	public AppiumDriver<MobileElement> driver;
 	ElementUtil elementUtil;
 	JavaScriptUtil jsUtil;
 
@@ -19,7 +19,6 @@ public class BackupRestorePage {
 		elementUtil = new ElementUtil(driver);
 		jsUtil = new JavaScriptUtil(driver);
 	}
-
 
 	// 1. locators - By
 	By backUpContactsLink = By.xpath("//*[contains(@text,'BackUp Contacts')]");
@@ -35,7 +34,4 @@ public class BackupRestorePage {
 		elementUtil.waitForElementPresent(backUpContactsLink);
 		elementUtil.doClick_Android(backUpContactsLink);
 	}
-
-
-
 }

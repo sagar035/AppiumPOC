@@ -1,20 +1,13 @@
 package com.qa.contacts.util;
 
 import java.util.Properties;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import com.qa.contacts.base.BasePage;
-
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
 
 public class ElementUtil extends BasePage{
 
@@ -30,33 +23,28 @@ public class ElementUtil extends BasePage{
 		jsUtil = new JavaScriptUtil(driver);
 	}
 
-	public boolean waitForTitlePresent(String title) {
-		wait.until(ExpectedConditions.titleIs(title));
-		return true;
-	}
-
+	/**
+	 * this method is used to wait for an element
+	 * @param locator
+	 * @return 
+	 */
 	public boolean waitForElementPresent(By locator) {
 		wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 		return true;
 	}
 
+	/**
+	 * this method is used to wait for an element to be visible
+	 * @param locator
+	 * @return 
+	 */
 	public boolean waitForElementVisible(By locator) {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 		return true;
 	}
 
-	public String doGetPageTitle() {
-		try {
-			return driver.getTitle();
-		} catch (Exception e) {
-			System.out.println("some exception got occurred while getting the title.....");
-		}
-		return null;
-	}
-
 	/**
 	 * this method is used to create the webelement on the basis of By locator
-	 * 
 	 * @param locator
 	 * @return element
 	 */
@@ -68,80 +56,48 @@ public class ElementUtil extends BasePage{
 			if(highlighElement){
 				jsUtil.flash(element);
 			}
-			
+
 		} catch (Exception e) {
 			System.out.println("some exception got occurred while creating the web element.....");
 		}
 		return element;
 	}
-	
-	
-	//Android Specific
+
+	/**
+	 * this method is used to check element is displayed or not
+	 * @param locator
+	 * @return true if element is displayed otherwise false
+	 */
 	public boolean doIsDisplayed_Android(By locator) {
 		try {
 			waitForElementPresent(locator);
 			return getElement(locator).isDisplayed();
 		} catch (Exception e) {
-			System.out.println("some exception got occurred.....");
+			System.out.println("some exception got occurred while checking element is displayed or not.....");
 		}
 		return false;
-	}	
-	
+	}
+
+	/**
+	 * this method is used to click on an element
+	 * @param locator
+	 * @return 
+	 */
 	public void doClick_Android(By locator) {
 		try {
-			getElement(locator).click();
-		} catch (Exception e) {
-			System.out.println("some exception got occurred while clicking on the web element.....");
-
-		}
-	}
-	
-	public String doGetText_Android(By locator) {
-		try {
 			waitForElementPresent(locator);
-			return getElement(locator).getText();
-		} catch (Exception e) {
-			System.out.println("some exception got occurred while getting the text from a webelement.....");
-		}
-		return null;
-	}
-	
-	
-	//Web Related
-
-	public void doClick(By locator) {
-		try {
 			getElement(locator).click();
 		} catch (Exception e) {
 			System.out.println("some exception got occurred while clicking on the web element.....");
 
 		}
 	}
-	
-	
-	public void doActionClick(By locator){
-		try {
-			WebElement ele = getElement(locator);
-			Actions action = new Actions(driver);
-			action.click(ele);
-		} catch (Exception e) {
-			System.out.println("some exception got occurred while clicking on the web element.....");
 
-		}
-	}
-	
-	
-	public void doActionSendKeys(By locator, String value){
-		try {
-			WebElement ele = getElement(locator);
-			Actions action = new Actions(driver);
-			action.sendKeys(ele, value);
-		} catch (Exception e) {
-			System.out.println("some exception got occurred while clicking on the web element.....");
-
-		}
-	}
-
+	/**
+	 * this method is used to send value to the field
+	 * @param locator
+	 * @return 
+	 */
 	public void doSendKeys(By locator, String value) {
 		try {
 			//wait visible
@@ -154,17 +110,12 @@ public class ElementUtil extends BasePage{
 		}
 	}
 
-	public boolean doIsDisplayed(By locator) {
-		try {
-			waitForElementPresent(locator);
-			return getElement(locator).isDisplayed();
-		} catch (Exception e) {
-			System.out.println("some exception got occurred.....");
-		}
-		return false;
-	}
-
-	public String doGetText(By locator) {
+	/**
+	 * this method is used to get text on an element
+	 * @param locator
+	 * @return text of element
+	 */
+	public String doGetText_Android(By locator) {
 		try {
 			waitForElementPresent(locator);
 			return getElement(locator).getText();

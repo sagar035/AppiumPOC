@@ -11,7 +11,7 @@ import io.appium.java_client.MobileElement;
 
 public class ContactusPage extends BasePage{
 
-	AppiumDriver<MobileElement> driver;
+	public AppiumDriver<MobileElement> driver;
 	ElementUtil elementUtil;
 	JavaScriptUtil jsUtil;
 
@@ -31,6 +31,7 @@ public class ContactusPage extends BasePage{
 
 	// page actions:
 	public boolean checkContactsUsHeader(){
+		elementUtil.waitForElementPresent(contactUsHeader);
 		return elementUtil.doIsDisplayed_Android(contactUsHeader);
 	}
 
@@ -43,7 +44,7 @@ public class ContactusPage extends BasePage{
 
 		elementUtil.doSendKeys(emailAddress, eAddress);
 
-		elementUtil.doClick(submit);
+		elementUtil.doClick_Android(submit);
 
 	}
 
