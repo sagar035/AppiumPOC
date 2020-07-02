@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="2" ignored="0" total="8" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="POC Tests - Contacts Manager" duration-ms="224468" started-at="2020-07-02T14:42:25 IST" finished-at="2020-07-02T14:46:09 IST">
+  <suite name="POC Tests - Contacts Manager" duration-ms="210255" started-at="2020-07-02T15:31:27 IST" finished-at="2020-07-02T15:34:57 IST">
     <groups>
     </groups>
-    <test name="Contacts HomePage Test" duration-ms="117779" started-at="2020-07-02T14:42:25 IST" finished-at="2020-07-02T14:44:22 IST">
+    <test name="Contacts HomePage Test" duration-ms="111302" started-at="2020-07-02T15:31:27 IST" finished-at="2020-07-02T15:33:18 IST">
       <class name="com.qa.contacts.tests.ContactsHomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.contacts.tests.ContactsHomePageTest@695a69a1]" name="setUp" is-config="true" duration-ms="25846" started-at="2020-07-02T14:42:25 IST" finished-at="2020-07-02T14:42:50 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.contacts.tests.ContactsHomePageTest@ddf20fd]" name="setUp" is-config="true" duration-ms="25865" started-at="2020-07-02T15:31:27 IST" finished-at="2020-07-02T15:31:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyContactHeaderTest()[pri:1, instance:com.qa.contacts.tests.ContactsHomePageTest@695a69a1]" name="verifyContactHeaderTest" duration-ms="201" started-at="2020-07-02T14:42:51 IST" description="verify contact header test.....!!!" finished-at="2020-07-02T14:42:51 IST">
+        <test-method status="PASS" signature="verifyContactHeaderTest()[pri:1, instance:com.qa.contacts.tests.ContactsHomePageTest@ddf20fd]" name="verifyContactHeaderTest" duration-ms="180" started-at="2020-07-02T15:31:53 IST" description="verify contact header test.....!!!" finished-at="2020-07-02T15:31:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactHeaderTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.contacts.tests.ContactsHomePageTest@695a69a1]" name="tearDown" is-config="true" duration-ms="296" started-at="2020-07-02T14:42:51 IST" finished-at="2020-07-02T14:42:51 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.contacts.tests.ContactsHomePageTest@ddf20fd]" name="tearDown" is-config="true" duration-ms="198" started-at="2020-07-02T15:31:53 IST" finished-at="2020-07-02T15:31:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.contacts.tests.ContactsHomePageTest@695a69a1]" name="setUp" is-config="true" duration-ms="24689" started-at="2020-07-02T14:42:51 IST" finished-at="2020-07-02T14:43:16 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.contacts.tests.ContactsHomePageTest@ddf20fd]" name="setUp" is-config="true" duration-ms="20593" started-at="2020-07-02T15:31:54 IST" finished-at="2020-07-02T15:32:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifySetPasswordTest()[pri:2, instance:com.qa.contacts.tests.ContactsHomePageTest@695a69a1]" name="verifySetPasswordTest" duration-ms="20123" started-at="2020-07-02T14:43:16 IST" finished-at="2020-07-02T14:43:36 IST">
+        <test-method status="FAIL" signature="verifySetPasswordTest()[pri:2, instance:com.qa.contacts.tests.ContactsHomePageTest@ddf20fd]" name="verifySetPasswordTest" duration-ms="20013" started-at="2020-07-02T15:32:14 IST" finished-at="2020-07-02T15:32:34 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -69,43 +69,43 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySetPasswordTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.contacts.tests.ContactsHomePageTest@695a69a1]" name="tearDown" is-config="true" duration-ms="191" started-at="2020-07-02T14:43:37 IST" finished-at="2020-07-02T14:43:37 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.contacts.tests.ContactsHomePageTest@ddf20fd]" name="tearDown" is-config="true" duration-ms="165" started-at="2020-07-02T15:32:35 IST" finished-at="2020-07-02T15:32:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.contacts.tests.ContactsHomePageTest@695a69a1]" name="setUp" is-config="true" duration-ms="22378" started-at="2020-07-02T14:43:37 IST" finished-at="2020-07-02T14:43:59 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.contacts.tests.ContactsHomePageTest@ddf20fd]" name="setUp" is-config="true" duration-ms="22047" started-at="2020-07-02T15:32:35 IST" finished-at="2020-07-02T15:32:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="goToBackUpRestoreTest()[pri:3, instance:com.qa.contacts.tests.ContactsHomePageTest@695a69a1]" name="goToBackUpRestoreTest" duration-ms="366" started-at="2020-07-02T14:43:59 IST" finished-at="2020-07-02T14:44:00 IST">
+        <test-method status="PASS" signature="goToBackUpRestoreTest()[pri:3, instance:com.qa.contacts.tests.ContactsHomePageTest@ddf20fd]" name="goToBackUpRestoreTest" duration-ms="193" started-at="2020-07-02T15:32:57 IST" finished-at="2020-07-02T15:32:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToBackUpRestoreTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.contacts.tests.ContactsHomePageTest@695a69a1]" name="tearDown" is-config="true" duration-ms="303" started-at="2020-07-02T14:44:00 IST" finished-at="2020-07-02T14:44:00 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.contacts.tests.ContactsHomePageTest@ddf20fd]" name="tearDown" is-config="true" duration-ms="335" started-at="2020-07-02T15:32:57 IST" finished-at="2020-07-02T15:32:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.contacts.tests.ContactsHomePageTest@695a69a1]" name="setUp" is-config="true" duration-ms="21674" started-at="2020-07-02T14:44:00 IST" finished-at="2020-07-02T14:44:22 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.contacts.tests.ContactsHomePageTest@ddf20fd]" name="setUp" is-config="true" duration-ms="20732" started-at="2020-07-02T15:32:57 IST" finished-at="2020-07-02T15:33:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="goToContactUsTest()[pri:4, instance:com.qa.contacts.tests.ContactsHomePageTest@695a69a1]" name="goToContactUsTest" duration-ms="362" started-at="2020-07-02T14:44:22 IST" finished-at="2020-07-02T14:44:22 IST">
+        <test-method status="PASS" signature="goToContactUsTest()[pri:4, instance:com.qa.contacts.tests.ContactsHomePageTest@ddf20fd]" name="goToContactUsTest" duration-ms="145" started-at="2020-07-02T15:33:18 IST" finished-at="2020-07-02T15:33:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToContactUsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.contacts.tests.ContactsHomePageTest@695a69a1]" name="tearDown" is-config="true" duration-ms="264" started-at="2020-07-02T14:44:22 IST" finished-at="2020-07-02T14:44:22 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.contacts.tests.ContactsHomePageTest@ddf20fd]" name="tearDown" is-config="true" duration-ms="236" started-at="2020-07-02T15:33:18 IST" finished-at="2020-07-02T15:33:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.contacts.tests.ContactsHomePageTest -->
     </test> <!-- Contacts HomePage Test -->
-    <test name="BackupRestore Test" duration-ms="49859" started-at="2020-07-02T14:44:22 IST" finished-at="2020-07-02T14:45:12 IST">
+    <test name="BackupRestore Test" duration-ms="47248" started-at="2020-07-02T15:33:18 IST" finished-at="2020-07-02T15:34:06 IST">
       <class name="com.qa.contacts.tests.BackupRestoreTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.contacts.tests.BackupRestoreTest@5226e402]" name="setUp" is-config="true" duration-ms="21702" started-at="2020-07-02T14:44:22 IST" finished-at="2020-07-02T14:44:44 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.contacts.tests.BackupRestoreTest@6edc4161]" name="setUp" is-config="true" duration-ms="22073" started-at="2020-07-02T15:33:18 IST" finished-at="2020-07-02T15:33:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyRestoreContactsTextTest()[pri:1, instance:com.qa.contacts.tests.BackupRestoreTest@5226e402]" name="verifyRestoreContactsTextTest" duration-ms="1588" started-at="2020-07-02T14:44:44 IST" description="verify restore contact text.....!!!" finished-at="2020-07-02T14:44:46 IST">
+        <test-method status="FAIL" signature="verifyRestoreContactsTextTest()[pri:1, instance:com.qa.contacts.tests.BackupRestoreTest@6edc4161]" name="verifyRestoreContactsTextTest" duration-ms="1268" started-at="2020-07-02T15:33:41 IST" description="verify restore contact text.....!!!" finished-at="2020-07-02T15:33:42 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Restore Contats] but found [Restore Contacts]]]>
@@ -152,43 +152,43 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRestoreContactsTextTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.contacts.tests.BackupRestoreTest@5226e402]" name="tearDown" is-config="true" duration-ms="238" started-at="2020-07-02T14:44:46 IST" finished-at="2020-07-02T14:44:47 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.contacts.tests.BackupRestoreTest@6edc4161]" name="tearDown" is-config="true" duration-ms="238" started-at="2020-07-02T15:33:42 IST" finished-at="2020-07-02T15:33:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.contacts.tests.BackupRestoreTest@5226e402]" name="setUp" is-config="true" duration-ms="23592" started-at="2020-07-02T14:44:47 IST" finished-at="2020-07-02T14:45:10 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.contacts.tests.BackupRestoreTest@6edc4161]" name="setUp" is-config="true" duration-ms="21609" started-at="2020-07-02T15:33:42 IST" finished-at="2020-07-02T15:34:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyContactClickTest()[pri:2, instance:com.qa.contacts.tests.BackupRestoreTest@5226e402]" name="verifyContactClickTest" duration-ms="1762" started-at="2020-07-02T14:45:10 IST" description="verify clicking on BackupRestore test.....!!!" finished-at="2020-07-02T14:45:12 IST">
+        <test-method status="PASS" signature="verifyContactClickTest()[pri:2, instance:com.qa.contacts.tests.BackupRestoreTest@6edc4161]" name="verifyContactClickTest" duration-ms="1479" started-at="2020-07-02T15:34:04 IST" description="verify clicking on BackupRestore test.....!!!" finished-at="2020-07-02T15:34:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactClickTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.contacts.tests.BackupRestoreTest@5226e402]" name="tearDown" is-config="true" duration-ms="324" started-at="2020-07-02T14:45:12 IST" finished-at="2020-07-02T14:45:12 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.contacts.tests.BackupRestoreTest@6edc4161]" name="tearDown" is-config="true" duration-ms="248" started-at="2020-07-02T15:34:05 IST" finished-at="2020-07-02T15:34:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.contacts.tests.BackupRestoreTest -->
     </test> <!-- BackupRestore Test -->
-    <test name="New Contact Us Request Test" duration-ms="56775" started-at="2020-07-02T14:45:12 IST" finished-at="2020-07-02T14:46:09 IST">
+    <test name="New Contact Us Request Test" duration-ms="51651" started-at="2020-07-02T15:34:06 IST" finished-at="2020-07-02T15:34:57 IST">
       <class name="com.qa.contacts.tests.ContactusTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.contacts.tests.ContactusTest@6a4d7f76]" name="setUp" is-config="true" duration-ms="22544" started-at="2020-07-02T14:45:12 IST" finished-at="2020-07-02T14:45:35 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.contacts.tests.ContactusTest@4650a407]" name="setUp" is-config="true" duration-ms="20409" started-at="2020-07-02T15:34:06 IST" finished-at="2020-07-02T15:34:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyContactUsHeaderTest()[pri:1, instance:com.qa.contacts.tests.ContactusTest@6a4d7f76]" name="verifyContactUsHeaderTest" duration-ms="1867" started-at="2020-07-02T14:45:35 IST" description="verify contactus header test.....!!!" finished-at="2020-07-02T14:45:37 IST">
+        <test-method status="PASS" signature="verifyContactUsHeaderTest()[pri:1, instance:com.qa.contacts.tests.ContactusTest@4650a407]" name="verifyContactUsHeaderTest" duration-ms="1746" started-at="2020-07-02T15:34:26 IST" description="verify contactus header test.....!!!" finished-at="2020-07-02T15:34:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactUsHeaderTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.contacts.tests.ContactusTest@6a4d7f76]" name="tearDown" is-config="true" duration-ms="320" started-at="2020-07-02T14:45:37 IST" finished-at="2020-07-02T14:45:37 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.contacts.tests.ContactusTest@4650a407]" name="tearDown" is-config="true" duration-ms="190" started-at="2020-07-02T15:34:28 IST" finished-at="2020-07-02T15:34:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.contacts.tests.ContactusTest@6a4d7f76]" name="setUp" is-config="true" duration-ms="24401" started-at="2020-07-02T14:45:38 IST" finished-at="2020-07-02T14:46:03 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.contacts.tests.ContactusTest@4650a407]" name="setUp" is-config="true" duration-ms="21827" started-at="2020-07-02T15:34:30 IST" finished-at="2020-07-02T15:34:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="newContactUsRequestTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.contacts.tests.ContactusTest@6a4d7f76]" name="newContactUsRequestTest" duration-ms="5651" started-at="2020-07-02T14:46:03 IST" description="Verify adding new contact us request" data-provider="getContactusData" finished-at="2020-07-02T14:46:09 IST">
+        <test-method status="PASS" signature="newContactUsRequestTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.contacts.tests.ContactusTest@4650a407]" name="newContactUsRequestTest" duration-ms="5679" started-at="2020-07-02T15:34:51 IST" description="Verify adding new contact us request" data-provider="getContactusData" finished-at="2020-07-02T15:34:57 IST">
           <params>
             <param index="0">
               <value>
@@ -209,7 +209,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newContactUsRequestTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.contacts.tests.ContactusTest@6a4d7f76]" name="tearDown" is-config="true" duration-ms="454" started-at="2020-07-02T14:46:09 IST" finished-at="2020-07-02T14:46:09 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.contacts.tests.ContactusTest@4650a407]" name="tearDown" is-config="true" duration-ms="323" started-at="2020-07-02T15:34:57 IST" finished-at="2020-07-02T15:34:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
