@@ -1,18 +1,16 @@
 package com.qa.contacts.listeners;
 
-import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileElement;
-import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
 import com.qa.contacts.base.BasePage;
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.qameta.allure.Attachment;
 
 public class TestAllureListener extends BasePage implements ITestListener {
-	public BasePage basePage;
 
 	private static String getTestMethodName(ITestResult iTestResult) {
 		return iTestResult.getMethod().getConstructorOrMethod().getName();

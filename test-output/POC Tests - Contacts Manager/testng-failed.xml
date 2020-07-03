@@ -8,8 +8,8 @@
     <classes>
       <class name="com.qa.contacts.tests.ContactsHomePageTest">
         <methods>
-          <include name="tearDown"/>
           <include name="verifySetPasswordTest"/>
+          <include name="tearDownVideo"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.qa.contacts.tests.ContactsHomePageTest -->
@@ -19,7 +19,7 @@
     <classes>
       <class name="com.qa.contacts.tests.BackupRestoreTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="tearDownVideo"/>
           <include name="verifyRestoreContactsTextTest"/>
           <include name="setUp"/>
         </methods>

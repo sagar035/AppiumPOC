@@ -36,7 +36,7 @@ public class BackupRestoreTest extends BaseTest{
 		log.info("ending--------------------->>>>>>> verifyRestoreContactsTextTest");
 	}
 
-	@Test(priority = 2, description = "verify clicking on BackupRestore test.....!!!")
+	@Test(priority = 2, enabled=false, description = "verify clicking on BackupRestore test.....!!!")
 	@Description("verify clicking on BackupRestore Test....")
 	@Severity(SeverityLevel.NORMAL)
 	public void verifyContactClickTest() {

@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
+                    <span class="method-stats">7 methods, 2 failed,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -138,11 +138,6 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-POC_Tests___Contacts_Manager" title="com.qa.contacts.tests.BackupRestoreTest" hash-for-method="verifyContactClickTest">verifyContactClickTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-POC_Tests___Contacts_Manager" title="com.qa.contacts.tests.ContactsHomePageTest" hash-for-method="verifyContactHeaderTest">verifyContactHeaderTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -166,6 +161,26 @@
           <div class="suite-POC_Tests___Contacts_Manager-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">com.qa.contacts.tests.ContactsHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySetPasswordTest">
+                  </a> <!-- verifySetPasswordTest -->
+                  <span class="method-name">verifySetPasswordTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.contacts.tests.ContactsHomePageTest.verifySetPasswordTest(ContactsHomePageTest.java:33)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-POC_Tests___Contacts_Manager-class-failed -->
+          <div class="suite-POC_Tests___Contacts_Manager-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">com.qa.contacts.tests.BackupRestoreTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -185,43 +200,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-POC_Tests___Contacts_Manager-class-failed -->
-          <div class="suite-POC_Tests___Contacts_Manager-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.qa.contacts.tests.ContactsHomePageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySetPasswordTest">
-                  </a> <!-- verifySetPasswordTest -->
-                  <span class="method-name">verifySetPasswordTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at com.qa.contacts.tests.ContactsHomePageTest.verifySetPasswordTest(ContactsHomePageTest.java:33)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-POC_Tests___Contacts_Manager-class-failed -->
-          <div class="suite-POC_Tests___Contacts_Manager-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.qa.contacts.tests.BackupRestoreTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyContactClickTest">
-                  </a> <!-- verifyContactClickTest -->
-                  <span class="method-name">verifyContactClickTest</span>
-                  <em>
-(verify clicking on BackupRestore test.....!!!)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-POC_Tests___Contacts_Manager-class-passed -->
           <div class="suite-POC_Tests___Contacts_Manager-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -351,44 +329,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifySetPasswordTest')
-data.setCell(0, 2, 'com.qa.contacts.tests.ContactsHomePageTest')
-data.setCell(0, 3, 20013);
+data.setCell(0, 1, 'newContactUsRequestTest')
+data.setCell(0, 2, 'com.qa.contacts.tests.ContactusTest')
+data.setCell(0, 3, 25059);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'newContactUsRequestTest')
-data.setCell(1, 2, 'com.qa.contacts.tests.ContactusTest')
-data.setCell(1, 3, 5679);
+data.setCell(1, 1, 'verifySetPasswordTest')
+data.setCell(1, 2, 'com.qa.contacts.tests.ContactsHomePageTest')
+data.setCell(1, 3, 20290);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyContactUsHeaderTest')
 data.setCell(2, 2, 'com.qa.contacts.tests.ContactusTest')
-data.setCell(2, 3, 1746);
+data.setCell(2, 3, 1445);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyContactClickTest')
+data.setCell(3, 1, 'verifyRestoreContactsTextTest')
 data.setCell(3, 2, 'com.qa.contacts.tests.BackupRestoreTest')
-data.setCell(3, 3, 1479);
+data.setCell(3, 3, 1346);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyRestoreContactsTextTest')
-data.setCell(4, 2, 'com.qa.contacts.tests.BackupRestoreTest')
-data.setCell(4, 3, 1268);
+data.setCell(4, 1, 'verifyContactHeaderTest')
+data.setCell(4, 2, 'com.qa.contacts.tests.ContactsHomePageTest')
+data.setCell(4, 3, 292);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'goToBackUpRestoreTest')
+data.setCell(5, 1, 'goToContactUsTest')
 data.setCell(5, 2, 'com.qa.contacts.tests.ContactsHomePageTest')
-data.setCell(5, 3, 193);
+data.setCell(5, 3, 275);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyContactHeaderTest')
+data.setCell(6, 1, 'goToBackUpRestoreTest')
 data.setCell(6, 2, 'com.qa.contacts.tests.ContactsHomePageTest')
-data.setCell(6, 3, 180);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'goToContactUsTest')
-data.setCell(7, 2, 'com.qa.contacts.tests.ContactsHomePageTest')
-data.setCell(7, 3, 145);
+data.setCell(6, 3, 262);
 window.suiteTableData['POC_Tests___Contacts_Manager']= { tableData: data, tableDiv: 'times-div-POC_Tests___Contacts_Manager'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
               <div id="times-div-POC_Tests___Contacts_Manager">
               </div> <!-- times-div-POC_Tests___Contacts_Manager -->
             </div> <!-- times-div -->
@@ -403,9 +377,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-POC_Tests___Contacts_Manager" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.qa.contacts.tests.BackupRestoreTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyContactClickTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-POC_Tests___Contacts_Manager" class="panel">
@@ -421,105 +402,93 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyContactHeaderTest</span>
-                <span class="method-start">26017 ms</span>
+                <span class="method-start">31690 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">26216 ms</span>
+                <span class="method-name">tearDownVideo([TestResult name=verifyContactHeaderTest status=SUCCESS method=ContactsHomePageTest.verifyContactHea...)</span>
+                <span class="method-start">31997 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">26421 ms</span>
+                <span class="method-start">33641 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifySetPasswordTest</span>
-                <span class="method-start">47014 ms</span>
+                <span class="method-start">63424 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">67377 ms</span>
+                <span class="method-name">tearDownVideo([TestResult name=verifySetPasswordTest status=FAILURE method=ContactsHomePageTest.verifySetPasswordT...)</span>
+                <span class="method-start">84725 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">67544 ms</span>
+                <span class="method-start">86370 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">goToBackUpRestoreTest</span>
-                <span class="method-start">89594 ms</span>
+                <span class="method-start">115588 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">89789 ms</span>
+                <span class="method-name">tearDownVideo([TestResult name=goToBackUpRestoreTest status=SUCCESS method=ContactsHomePageTest.goToBackUpRestoreT...)</span>
+                <span class="method-start">115852 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">90126 ms</span>
+                <span class="method-start">117277 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">goToContactUsTest</span>
-                <span class="method-start">110860 ms</span>
+                <span class="method-start">147136 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">111008 ms</span>
+                <span class="method-name">tearDownVideo([TestResult name=goToContactUsTest status=SUCCESS method=ContactsHomePageTest.goToContactUsTest()[pr...)</span>
+                <span class="method-start">147413 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.contacts.tests.BackupRestoreTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">111288 ms</span>
+                <span class="method-start">148510 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyRestoreContactsTextTest</span>
-                <span class="method-start">133364 ms</span>
+                <span class="method-start">178575 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">134946 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">135187 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyContactClickTest</span>
-                <span class="method-start">156804 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">158286 ms</span>
+                <span class="method-name">tearDownVideo([TestResult name=verifyRestoreContactsTextTest status=FAILURE method=BackupRestoreTest.verifyRestore...)</span>
+                <span class="method-start">180746 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.contacts.tests.ContactusTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">158551 ms</span>
+                <span class="method-start">181916 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyContactUsHeaderTest</span>
-                <span class="method-start">178963 ms</span>
+                <span class="method-start">211184 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">180712 ms</span>
+                <span class="method-name">tearDownVideo([TestResult name=verifyContactUsHeaderTest status=SUCCESS method=ContactusTest.verifyContactUsHeader...)</span>
+                <span class="method-start">212635 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">182365 ms</span>
+                <span class="method-start">215684 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">newContactUsRequestTest(Sagar, 8925611111, test@test.com)</span>
-                <span class="method-start">204194 ms</span>
+                <span class="method-start">245966 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">209876 ms</span>
+                <span class="method-name">tearDownVideo([TestResult name=newContactUsRequestTest status=SUCCESS method=ContactusTest.newContactUsRequestTest...)</span>
+                <span class="method-start">271028 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
